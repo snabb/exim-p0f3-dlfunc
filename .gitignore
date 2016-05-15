@@ -15,3 +15,7 @@ m4/*
 Makefile.in
 Makefile
 stamp-h1
+exim-p0f3-dlfunc-*.README.txt
+exim-p0f3-dlfunc-*.tar.gz
+*.o
+*~

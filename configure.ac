@@ -1,5 +1,5 @@
 AC_INIT([p0f version 3 dlfunc for Exim], [0.1], [snabb@epipe.com],
-  [exim-p0f3-dlfunc], [http://dist.epipe.com/exim/])
+  [exim-p0f3-dlfunc], [https://dist.epipe.com/exim/])
 
 AC_CONFIG_SRCDIR([exim-p0f3-dlfunc.c])
 AC_CONFIG_HEADERS([config.h])

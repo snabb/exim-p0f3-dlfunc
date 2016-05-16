@@ -8,7 +8,7 @@ addresses of SMTP senders according to sender's operating system. p0f
 version 3 and this dlfunc supports IPv6. Note that the interface is *not*
 compatible with p0f versions 2.x or older.
 
-- Download:	http://dist.epipe.com/exim/
+- Download:	https://dist.epipe.com/exim/
 - GitHub:	https://github.com/snabb/exim-p0f3-dlfunc
 - Author:	Janne Snabb, snabb at epipe.com
 - License:	LGPL version 2.1 or later

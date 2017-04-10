@@ -44,9 +44,13 @@ make install
 
 ## Usage
 
-Exim must be compiled with the "dlfunc" feature enabled. On Debian
-and Ubuntu this is available in `exim4-daemon-heavy` package but *not*
-in `exim4-daemon-light` package.
+Exim must be compiled with the "dlfunc" feature enabled (`EXPAND_DLFUNC=yes`).
+
+Also Exim must be compiled with `-export-dynamic` in `EXTRALIBS` to make
+Exim's local_scan API available.
+
+On Debian and Ubuntu you need to use `exim4-daemon-heavy` package.
+`exim4-daemon-light` package will *not* work.
 
 Start p0f (version 3) in daemon mode and make the API socket available
 in some suitable location.
